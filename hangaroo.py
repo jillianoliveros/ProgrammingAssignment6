@@ -6,7 +6,6 @@ def hangaroo(secretWord):
     lettersGuessed=[]
     secretWord=secretWord.lower()
     secretWordList=list(secretWord)
-    lettersGuessedList=list(lettersGuessed)
     print("Hello! Welcome to Hangaroo!")
     while isWordGuessed(secretWord,lettersGuessed) != True:
         userGuess=input("Guess a letter: ")
